@@ -48,7 +48,7 @@ def get_stream(keyword_list = None):
 def search(hashtag):
 	api = get_api()
 	#hashtag = 'IndiaAgainstCorruption'
-	tweets = tweepy.Cursor(api.search, q='#'+hashtag).items(10)
+	tweets = tweepy.Cursor(api.search, q='#'+hashtag, lang='en').items(10)
 	i = 0
 	output_tweets = []
 	with open(hashtag+'_tweets.json', 'w') as json_f:
