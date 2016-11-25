@@ -15,6 +15,7 @@ In order to access Twitter APIs, we need to get 4 pieces of information from Twi
 
 ##Run
 1. Run the script _indiaagainstcorruption.py_ using the command.  
-	`$ python hashtag.py _hashtag_`
+	`$ python hashtag.py search_term _hashtag`
+Note: append '_' with a hashtag you want to search for.
 
 2. See the output in `hashtag`_tweet.json
