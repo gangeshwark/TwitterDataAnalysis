@@ -1,7 +1,7 @@
 # TwitterDataAnalysis
 
 
-##Authentication
+## Authentication
 In order to access Twitter APIs, we need to get 4 pieces of information from Twitter: API key, API secret, Access token and Access token secret. Follow the steps below to get all 4 elements:
 
 1. Create a twitter account if you do not already have one.
@@ -13,7 +13,7 @@ In order to access Twitter APIs, we need to get 4 pieces of information from Twi
 7. Now store these values in API_DATA.py file in SentimentAnalysisModule folder.(Format given in sample file)
 
 
-##Run
+## Run
 1. Run the script _indiaagainstcorruption.py_ using the command.  
 	`$ python hashtag.py search_term _hashtag`
 Note: append '_' with a hashtag you want to search for.
